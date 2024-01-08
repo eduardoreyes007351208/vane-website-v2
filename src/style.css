@@ -21,3 +21,32 @@ body {
     border: 4px solid #000000;
     background-color: aqua;
 }
+
+#about-me {
+    display: flex;
+}
+
+#main-sec {
+    text-align: center;
+}
+
+#house-display {
+    border: 4px solid #000000;
+    max-width: 800px;
+    height: 400px;
+}
+
+#footer {
+     text-align: center;
+     width: 100%;
+
+}
+
+#contact-ul {
+    list-style: none;
+}
+
+#contact-ul li {
+    display: inline;
+    margin: 0 32px;
+}
