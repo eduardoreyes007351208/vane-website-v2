@@ -1,0 +1,74 @@
+html {
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+body {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav-ul {
+    display: none;
+}
+
+#hero {
+    border: 1px solid blueviolet;
+}
+
+#to-listings {
+    border: 1px solid red;
+}
+
+#to-contact {
+    border: 1px solid green;
+}
+
+#footer {
+    border: 1px solid orange;
+}
+
+/* Small Devices (mobile/tablets) */
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 1rem;
+    }
+}
+
+/* Medium Devices (tablets/laptops) */
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 1.2rem
+    }
+
+    #nav-ul {
+        display: block;
+    }
+
+    #menu-icon {
+        display: none;
+    }
+}
+
+/* Large Devices (laptops/desktops) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Extra Large Devices (large desktops) */
+@media screen and (min-width: 1200px) {
+    
+}
